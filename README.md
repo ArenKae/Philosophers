@@ -17,11 +17,11 @@ Grade: 100/100
 To compile, use ```make``` or ```make all```.
 Launch the program with the command : ```./philo arg1 arg2 arg3 arg4 arg5```
 where :
-arg1 = Number of philosophers
-arg2 = The time (in milliseconds) it takes for a philosophers to die
-arg3 = The time (in milliseconds) it takes for a philosophers to eat
-arg4 = The time (in milliseconds) it takes for a philosophers to sleep
-arg5 = The number of times each philosophers should eat. This argument is optional.
+- arg1 = Number of philosophers
+- arg2 = The time (in milliseconds) it takes for a philosophers to die
+- arg3 = The time (in milliseconds) it takes for a philosophers to eat
+- arg4 = The time (in milliseconds) it takes for a philosophers to sleep
+- arg5 = The number of times each philosophers should eat. This argument is optional.
 
 ### Notes
 - The project was done on Ubuntu 22.04.3 and was also tested on MacOS.
