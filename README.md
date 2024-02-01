@@ -4,7 +4,7 @@
   <img src="https://github.com/ArenKae/42-badges/blob/main/philosopherse.png" alt="Philosophers by acosi">
 </p>
 
-One of the first graphical projects at 42 school, so_long is a small 2D game where a lost astronaut needs to collect energy cells to power up his ship. This project uses the school's graphical library, MiniLibX, in order to display a window, handle events, colors and textures.
+Philosophers is a 42 school project designed around Edsger Dijkstra's famous dining philosophers problem. For this project, we must learn about concurrent programming. For the project's mandatory part, we must find a solution to the problem using only threads and mutexes.
 
 ---
 
