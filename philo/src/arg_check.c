@@ -6,7 +6,7 @@
 /*   By: acosi <acosi@student.42nice.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 17:10:39 by acosi             #+#    #+#             */
-/*   Updated: 2024/02/01 18:13:42 by acosi            ###   ########.fr       */
+/*   Updated: 2024/02/02 12:28:59 by acosi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,10 +49,10 @@ int	check_arg_size(int ac, char **av)
 	if (ft_strlen(av[1]) > 10 || ft_strlen(av[2]) > 10 || ft_strlen(av[3]) > 10
 		|| ft_strlen(av[4]) > 10 || ft_strlen(av[5]) > 10)
 		return (0);
-	if ((ft_strlen(av[1]) == 10 && philo_num < 0) || (ft_strlen(av[2])
-			&& time_to_die < 0) || (ft_strlen(av[3]) && time_to_eat < 0)
-		|| (ft_strlen(av[4]) && time_to_sleep < 0)
-		|| (ft_strlen(av[5]) && meal_nbr < 0))
+	if ((ft_strlen(av[1]) == 10 && philo_num < 0) || (ft_strlen(av[2]) == 10
+			&& time_to_die < 0) || (ft_strlen(av[3]) == 10 && time_to_eat < 0)
+		|| (ft_strlen(av[4]) == 10 && time_to_sleep < 0)
+		|| (ft_strlen(av[5]) == 10 && meal_nbr < 0))
 		return (0);
 	return (1);
 }
