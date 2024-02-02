@@ -15,7 +15,7 @@ WHITE = \033[0;97m
 NAME = philo
 CC = gcc
 CFLAGS += -Wall -Wextra -Werror
-# Check for data races :    -fsanitize=thread
+# ThreadSanitizer flag :    -fsanitize=thread
 HEADER 	= philosophers.h
 OBJF = .cache_exists	# needed to create obj/ directory
 .DEFAULT_GOAL := all	# make = make all
@@ -89,7 +89,7 @@ re:	fclean all
 	@echo "$(BLUE)-> Cleaned and rebuilt everything for Philosophers!$(DEF_COLOR)"
 
 # Phony targets are used to differenciate makefile rules from system files.
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re flcean
 
 ### MEMO ###
 # 	Spécial variables :
