@@ -25,16 +25,12 @@ where :
 
 ### Notes
 - The project was done on Ubuntu 22.04.3 and was also tested on MacOS.
-- Memory leaks have been thoroughly checked with Valgrind :
+- Data races have been thoroughly checked with Valgrind :
 ```
-valgrind --leak-check=full ./philo arg1 arg2 arg3 arg4 arg5
-```
-- Valgrind was also used to check for data races :
-```
-valgrind --tool=drd
+valgrind --tool=drd ./philo ...
 ```
 or
 ```
-valgrind --tool=helgrind
+valgrind --tool=helgrind ./philo ...
 ```
 - The flag "-fsanitize=thread" can also be used to compile with ThreadSanitizer and check for additional thread errors.
