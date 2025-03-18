@@ -1,10 +1,10 @@
 # Philosophers
 
 <p align="center">
-  <img src="https://github.com/ArenKae/42-badges/blob/main/philosopherse.png" alt="Philosophers by acosi">
+  <img src="https://github.com/ArenKae/ArenKae/blob/main/42%20badges/philosopherse.png" alt="'Philosophers 42 project badge">
 </p>
 
-Philosophers is a 42 school project designed around Edsger Dijkstra's famous dining philosophers problem. For this project, we must learn about concurrent programming. For the project's mandatory part, we must find a solution to the problem using only threads and mutexes.
+Philosophers is a project designed around Edsger Dijkstra's famous [dining philosophers problem](https://en.wikipedia.org/wiki/Dining_philosophers_problem). For this project, we must learn about concurrent programming. For the project's mandatory part, we must find a solution to the problem using only threads and mutexes.
 
 ---
 
@@ -15,7 +15,10 @@ Grade: 100/100
 
 ## Usage
 To compile, use ```make``` or ```make all```.
-Launch the program with the command : ```./philo arg1 arg2 arg3 arg4 arg5```
+Launch the program with the command : 
+```
+./philo arg1 arg2 arg3 arg4 arg5
+```
 where :
 - arg1 = Number of philosophers
 - arg2 = The time (in milliseconds) it takes for a philosophers to die
