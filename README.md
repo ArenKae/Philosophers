@@ -9,9 +9,9 @@ Philosophers is a project designed around Edsger Dijkstra's famous [dining philo
 ---
 
 ## Status
-Finished 01/02/2024.
-
-Grade: 100/100
+✅ Completed on: 01/02/2024
+</br>
+🏆 Grade: 100/100
 
 ## Usage
 To compile, use ```make``` or ```make all```.
