@@ -16,8 +16,8 @@ Philosophers is a project designed around Edsger Dijkstra's famous [dining philo
 ## Usage
 To compile, use ```make``` or ```make all```.
 Launch the program with the command : 
-```
-./philo arg1 arg2 arg3 arg4 arg5
+```bash
+./philo <arg1> <arg2> <arg3> <arg4> <arg5>
 ```
 where :
 - arg1 = Number of philosophers
