@@ -36,4 +36,7 @@ or
 ```
 valgrind --tool=helgrind ./philo ...
 ```
-- The flag "-fsanitize=thread" can also be used to compile with ThreadSanitizer and check for additional thread errors.
+</br>
+
+> [!TIP]
+> The flag "-fsanitize=thread" can also be used to compile with ThreadSanitizer and check for additional thread errors.
