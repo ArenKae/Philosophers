@@ -14,7 +14,7 @@ Philosophers is a project designed around Edsger Dijkstra's famous [dining philo
 🏆 Grade: 100/100
 
 ## Usage
-To compile, use ```make``` or ```make all```.
+To compile, use ```make```.
 Launch the program with the command : 
 ```bash
 ./philo <arg1> <arg2> <arg3> <arg4> <arg5>
@@ -32,7 +32,7 @@ where :
 ```
 valgrind --tool=drd ./philo ...
 ```
-or
+and
 ```
 valgrind --tool=helgrind ./philo ...
 ```
